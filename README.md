@@ -14,14 +14,23 @@
 The package is fork of [avto-dev/cloud-payments-laravel](https://github.com/avto-dev/cloud-payments-laravel).
 
 ## Install
+> Installed `composer` is required ([how to install composer][getcomposer]).
 
 Require this package with composer using the following command:
-
+1. Add the repository to composer.json:
+```json
+"repositories": [
+    {
+        "type": "vcs",
+        "url": "git@github.com:CHfur/laravel-swagger.git"
+    }
+]
+```
+2. Install dependency:
 ```shell
-$ composer require avto-dev/cloud-payments-laravel "^1.1"
+$ composer require chfur/cloud-payments-laravel
 ```
 
-> Installed `composer` is required ([how to install composer][getcomposer]).
 
 ## Configuration
 
