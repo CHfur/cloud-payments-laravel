@@ -22,7 +22,7 @@ Require this package with composer using the following command:
 "repositories": [
     {
         "type": "vcs",
-        "url": "git@github.com:CHfur/laravel-swagger.git"
+        "url": "git@github.com:CHfur/cloud-payments-laravel.git"
     }
 ]
 ```
