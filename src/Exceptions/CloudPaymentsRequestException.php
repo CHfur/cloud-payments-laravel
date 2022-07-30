@@ -2,7 +2,7 @@
 
 declare(strict_types = 1);
 
-namespace AvtoDev\CloudPayments\Exceptions;
+namespace CHfur\CloudPayments\Exceptions;
 
 use Psr\Http\Message\RequestInterface;
 use GuzzleHttp\Exception\RequestException;

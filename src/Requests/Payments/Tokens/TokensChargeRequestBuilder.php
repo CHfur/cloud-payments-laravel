@@ -2,7 +2,7 @@
 
 declare(strict_types = 1);
 
-namespace AvtoDev\CloudPayments\Requests\Payments\Tokens;
+namespace CHfur\CloudPayments\Requests\Payments\Tokens;
 
 use GuzzleHttp\Psr7\Uri;
 use Psr\Http\Message\UriInterface;

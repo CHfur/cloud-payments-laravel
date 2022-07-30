@@ -2,14 +2,14 @@
 
 declare(strict_types = 1);
 
-namespace AvtoDev\Tests\Unit\Receipt;
+namespace CHfur\Tests\Unit\Receipt;
 
 use Illuminate\Support\Str;
-use AvtoDev\Tests\AbstractTestCase;
-use AvtoDev\CloudPayments\Receipts\Item;
+use CHfur\Tests\AbstractTestCase;
+use CHfur\CloudPayments\Receipts\Item;
 
 /**
- * @covers \AvtoDev\CloudPayments\Receipts\Item
+ * @covers \CHfur\CloudPayments\Receipts\Item
  */
 class ReceiptItemTest extends AbstractTestCase
 {

@@ -2,13 +2,13 @@
 
 declare(strict_types = 1);
 
-namespace AvtoDev\CloudPayments\Requests\Payments\Cards;
+namespace CHfur\CloudPayments\Requests\Payments\Cards;
 
 use GuzzleHttp\Psr7\Uri;
 use Psr\Http\Message\UriInterface;
-use AvtoDev\CloudPayments\Requests\Traits\HasReceipt;
-use AvtoDev\CloudPayments\Requests\AbstractRequestBuilder;
-use AvtoDev\CloudPayments\Requests\Traits\PaymentRequestTrait;
+use CHfur\CloudPayments\Requests\Traits\HasReceipt;
+use CHfur\CloudPayments\Requests\AbstractRequestBuilder;
+use CHfur\CloudPayments\Requests\Traits\PaymentRequestTrait;
 
 /**
  * @see https://developers.cloudpayments.ru/#oplata-po-kriptogramme

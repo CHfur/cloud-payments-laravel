@@ -2,11 +2,11 @@
 
 declare(strict_types = 1);
 
-namespace AvtoDev\CloudPayments\Requests\Subscriptions;
+namespace CHfur\CloudPayments\Requests\Subscriptions;
 
 use GuzzleHttp\Psr7\Uri;
 use Psr\Http\Message\UriInterface;
-use AvtoDev\CloudPayments\Requests\AbstractRequestBuilder;
+use CHfur\CloudPayments\Requests\AbstractRequestBuilder;
 
 /**
  * @see https://developers.cloudpayments.ru/#poisk-podpisok

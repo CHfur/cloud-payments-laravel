@@ -2,15 +2,15 @@
 
 declare(strict_types = 1);
 
-namespace AvtoDev\Tests\Unit\Requests\Payments;
+namespace CHfur\Tests\Unit\Requests\Payments;
 
 use GuzzleHttp\Psr7\Uri;
 use Psr\Http\Message\UriInterface;
-use AvtoDev\Tests\Unit\Requests\AbstractRequestBuilderTestCase;
-use AvtoDev\CloudPayments\Requests\Payments\PaymentsVoidRequestBuilder;
+use CHfur\Tests\Unit\Requests\AbstractRequestBuilderTestCase;
+use CHfur\CloudPayments\Requests\Payments\PaymentsVoidRequestBuilder;
 
 /**
- * @covers \AvtoDev\CloudPayments\Requests\Payments\PaymentsVoidRequestBuilder
+ * @covers \CHfur\CloudPayments\Requests\Payments\PaymentsVoidRequestBuilder
  */
 class PaymentsVoidRequestBuilderTest extends AbstractRequestBuilderTestCase
 {

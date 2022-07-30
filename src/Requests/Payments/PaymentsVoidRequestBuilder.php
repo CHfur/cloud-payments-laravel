@@ -2,11 +2,11 @@
 
 declare(strict_types = 1);
 
-namespace AvtoDev\CloudPayments\Requests\Payments;
+namespace CHfur\CloudPayments\Requests\Payments;
 
 use GuzzleHttp\Psr7\Uri;
 use Psr\Http\Message\UriInterface;
-use AvtoDev\CloudPayments\Requests\AbstractRequestBuilder;
+use CHfur\CloudPayments\Requests\AbstractRequestBuilder;
 
 class PaymentsVoidRequestBuilder extends AbstractRequestBuilder
 {

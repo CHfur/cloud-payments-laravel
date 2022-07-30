@@ -2,7 +2,7 @@
 
 declare(strict_types = 1);
 
-namespace AvtoDev\CloudPayments\Requests\Traits;
+namespace CHfur\CloudPayments\Requests\Traits;
 
 trait PaymentRequestTrait
 {

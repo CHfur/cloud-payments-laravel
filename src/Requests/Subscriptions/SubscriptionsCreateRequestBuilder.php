@@ -2,16 +2,16 @@
 
 declare(strict_types = 1);
 
-namespace AvtoDev\CloudPayments\Requests\Subscriptions;
+namespace CHfur\CloudPayments\Requests\Subscriptions;
 
 use DateTime;
 use DateTimeInterface;
 use GuzzleHttp\Psr7\Uri;
 use Psr\Http\Message\UriInterface;
-use AvtoDev\CloudPayments\Receipts\Receipt;
-use AvtoDev\CloudPayments\References\Currency;
-use AvtoDev\CloudPayments\References\Interval;
-use AvtoDev\CloudPayments\Requests\AbstractRequestBuilder;
+use CHfur\CloudPayments\Receipts\Receipt;
+use CHfur\CloudPayments\References\Currency;
+use CHfur\CloudPayments\References\Interval;
+use CHfur\CloudPayments\Requests\AbstractRequestBuilder;
 
 /**
  * @see https://developers.cloudpayments.ru/#sozdanie-podpiski-na-rekurrentnye-platezhi

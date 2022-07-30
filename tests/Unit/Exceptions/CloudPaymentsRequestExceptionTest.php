@@ -2,14 +2,14 @@
 
 declare(strict_types = 1);
 
-namespace AvtoDev\Tests\Unit\Exceptions;
+namespace CHfur\Tests\Unit\Exceptions;
 
 use GuzzleHttp\Psr7\Request;
-use AvtoDev\Tests\AbstractTestCase;
-use AvtoDev\CloudPayments\Exceptions\CloudPaymentsRequestException;
+use CHfur\Tests\AbstractTestCase;
+use CHfur\CloudPayments\Exceptions\CloudPaymentsRequestException;
 
 /**
- * @covers \AvtoDev\CloudPayments\Exceptions\CloudPaymentsRequestException
+ * @covers \CHfur\CloudPayments\Exceptions\CloudPaymentsRequestException
  */
 class CloudPaymentsRequestExceptionTest extends AbstractTestCase
 {

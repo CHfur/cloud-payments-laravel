@@ -2,18 +2,18 @@
 
 declare(strict_types = 1);
 
-namespace AvtoDev\Tests\Unit\Requests\Subscriptions;
+namespace CHfur\Tests\Unit\Requests\Subscriptions;
 
 use Carbon\Carbon;
 use GuzzleHttp\Psr7\Uri;
 use Illuminate\Support\Str;
 use Psr\Http\Message\UriInterface;
-use AvtoDev\CloudPayments\Receipts\Receipt;
-use AvtoDev\Tests\Unit\Requests\AbstractRequestBuilderTestCase;
-use AvtoDev\CloudPayments\Requests\Subscriptions\SubscriptionsUpdateRequestBuilder;
+use CHfur\CloudPayments\Receipts\Receipt;
+use CHfur\Tests\Unit\Requests\AbstractRequestBuilderTestCase;
+use CHfur\CloudPayments\Requests\Subscriptions\SubscriptionsUpdateRequestBuilder;
 
 /**
- * @covers \AvtoDev\CloudPayments\Requests\Subscriptions\SubscriptionsUpdateRequestBuilder
+ * @covers \CHfur\CloudPayments\Requests\Subscriptions\SubscriptionsUpdateRequestBuilder
  */
 class SubscriptionsUpdateRequestBuilderTest extends AbstractRequestBuilderTestCase
 {

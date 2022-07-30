@@ -2,14 +2,14 @@
 
 declare(strict_types = 1);
 
-namespace AvtoDev\Tests\Unit;
+namespace CHfur\Tests\Unit;
 
 use Illuminate\Support\Str;
-use AvtoDev\CloudPayments\Config;
-use AvtoDev\Tests\AbstractTestCase;
+use CHfur\CloudPayments\Config;
+use CHfur\Tests\AbstractTestCase;
 
 /**
- * @covers \AvtoDev\CloudPayments\Config
+ * @covers \CHfur\CloudPayments\Config
  */
 class ConfigTest extends AbstractTestCase
 {

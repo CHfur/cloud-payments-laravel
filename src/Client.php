@@ -2,13 +2,13 @@
 
 declare(strict_types = 1);
 
-namespace AvtoDev\CloudPayments;
+namespace CHfur\CloudPayments;
 
 use GuzzleHttp\ClientInterface;
 use Psr\Http\Message\RequestInterface;
 use Psr\Http\Message\ResponseInterface;
 use GuzzleHttp\Exception\GuzzleException;
-use AvtoDev\CloudPayments\Exceptions\CloudPaymentsRequestException;
+use CHfur\CloudPayments\Exceptions\CloudPaymentsRequestException;
 
 class Client
 {

@@ -2,13 +2,13 @@
 
 declare(strict_types = 1);
 
-namespace AvtoDev\Tests\Unit\Frameworks\Laravel;
+namespace CHfur\Tests\Unit\Frameworks\Laravel;
 
 use Illuminate\Support\Str;
 use GuzzleHttp\HandlerStack;
 use GuzzleHttp\Psr7\Request;
 use GuzzleHttp\Psr7\Response;
-use AvtoDev\CloudPayments\Client;
+use CHfur\CloudPayments\Client;
 use Psr\Http\Client\ClientInterface;
 use GuzzleHttp\Client as GuzzleClient;
 use Psr\Http\Message\RequestInterface;
@@ -16,11 +16,11 @@ use Psr\Http\Message\ResponseInterface;
 use Illuminate\Contracts\Console\Kernel;
 use Illuminate\Contracts\Config\Repository;
 use Illuminate\Foundation\Testing\TestCase;
-use AvtoDev\GuzzleUrlMock\UrlsMockHandler;
-use AvtoDev\CloudPayments\Frameworks\Laravel\ServiceProvider;
+use CHfur\GuzzleUrlMock\UrlsMockHandler;
+use CHfur\CloudPayments\Frameworks\Laravel\ServiceProvider;
 
 /**
- * @covers \AvtoDev\CloudPayments\Frameworks\Laravel\ServiceProvider
+ * @covers \CHfur\CloudPayments\Frameworks\Laravel\ServiceProvider
  */
 class ServiceProviderTest extends TestCase
 {

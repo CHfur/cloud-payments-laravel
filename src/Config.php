@@ -2,7 +2,7 @@
 
 declare(strict_types = 1);
 
-namespace AvtoDev\CloudPayments;
+namespace CHfur\CloudPayments;
 
 class Config
 {

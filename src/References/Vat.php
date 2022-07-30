@@ -2,7 +2,7 @@
 
 declare(strict_types = 1);
 
-namespace AvtoDev\CloudPayments\References;
+namespace CHfur\CloudPayments\References;
 
 /**
  * @see https://developers.cloudpayments.ru/#znacheniya-stavki-VAT

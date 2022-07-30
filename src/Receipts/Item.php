@@ -2,11 +2,11 @@
 
 declare(strict_types = 1);
 
-namespace AvtoDev\CloudPayments\Receipts;
+namespace CHfur\CloudPayments\Receipts;
 
-use AvtoDev\CloudPayments\References\Vat;
-use AvtoDev\CloudPayments\References\PaymentType;
-use AvtoDev\CloudPayments\References\PaymentObject;
+use CHfur\CloudPayments\References\Vat;
+use CHfur\CloudPayments\References\PaymentType;
+use CHfur\CloudPayments\References\PaymentObject;
 
 /**
  * @see https://developers.cloudpayments.ru/#format-peredachi-dannyh-dlya-onlayn-cheka

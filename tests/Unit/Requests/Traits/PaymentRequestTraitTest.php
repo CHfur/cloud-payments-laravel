@@ -2,14 +2,14 @@
 
 declare(strict_types = 1);
 
-namespace AvtoDev\Tests\Unit\Requests\Traits;
+namespace CHfur\Tests\Unit\Requests\Traits;
 
 use Illuminate\Support\Str;
-use AvtoDev\Tests\AbstractTestCase;
-use AvtoDev\CloudPayments\Requests\Traits\PaymentRequestTrait;
+use CHfur\Tests\AbstractTestCase;
+use CHfur\CloudPayments\Requests\Traits\PaymentRequestTrait;
 
 /**
- * @covers \AvtoDev\CloudPayments\Requests\Traits\PaymentRequestTrait
+ * @covers \CHfur\CloudPayments\Requests\Traits\PaymentRequestTrait
  */
 class PaymentRequestTraitTest extends AbstractTestCase
 {

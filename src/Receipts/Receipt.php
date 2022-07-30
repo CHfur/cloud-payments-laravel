@@ -2,9 +2,9 @@
 
 declare(strict_types = 1);
 
-namespace AvtoDev\CloudPayments\Receipts;
+namespace CHfur\CloudPayments\Receipts;
 
-use AvtoDev\CloudPayments\References\TaxationSystem;
+use CHfur\CloudPayments\References\TaxationSystem;
 
 /**
  * @see https://developers.cloudpayments.ru/#format-peredachi-dannyh-dlya-onlayn-cheka

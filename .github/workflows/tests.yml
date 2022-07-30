@@ -89,7 +89,7 @@ jobs: # Docs: <https://git.io/JvxXE>
         uses: actions/checkout@v2
 
       - name: Lint changelog file
-        uses: docker://avtodev/markdown-lint:v1 # Action page: <https://github.com/avto-dev/markdown-lint>
+        uses: docker://CHfur/markdown-lint:v1 # Action page: <https://github.com/avto-dev/markdown-lint>
         with:
           rules: '/lint/rules/changelog.js'
           config: '/lint/config/changelog.yml'

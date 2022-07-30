@@ -2,11 +2,11 @@
 
 declare(strict_types = 1);
 
-namespace AvtoDev\CloudPayments\Requests\Payments\Cards;
+namespace CHfur\CloudPayments\Requests\Payments\Cards;
 
 use GuzzleHttp\Psr7\Uri;
 use Psr\Http\Message\UriInterface;
-use AvtoDev\CloudPayments\Requests\AbstractRequestBuilder;
+use CHfur\CloudPayments\Requests\AbstractRequestBuilder;
 
 /**
  * @see https://developers.cloudpayments.ru/#obrabotka-3-d-secure

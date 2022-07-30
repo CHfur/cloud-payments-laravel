@@ -11,7 +11,7 @@
 [![Downloads count][badge_downloads_count]][link_packagist]
 [![License][badge_license]][link_license]
 
-The package provides easy way to use [Cloud Payments API](https://developers.cloudpayments.ru/#api).
+The package is fork of [avto-dev/cloud-payments-laravel](https://github.com/avto-dev/cloud-payments-laravel).
 
 ## Install
 
@@ -30,7 +30,7 @@ $ composer require avto-dev/cloud-payments-laravel "^1.1"
 For client configuration use `Config` instance. Client constructor requires **Public ID** and **API Secret** that you can find in ClodPayments personal area.
 
 ```php
-use AvtoDev\CloudPayments\Config;
+use CHfur\CloudPayments\Config;
 
 $config = new Config('pk_some_key', 'some_api_key');
 ```
@@ -40,13 +40,13 @@ $config = new Config('pk_some_key', 'some_api_key');
 Select one of [requset builders](#request-builders):
 
 ```php
-$request_builder = new \AvtoDev\CloudPayments\Requests\Payments\Cards\CardsAuthRequestBuilder;
+$request_builder = new \CHfur\CloudPayments\Requests\Payments\Cards\CardsAuthRequestBuilder;
 ```
 
 Set all necessary parameters through the setters:
 
 ```php
-/** @var $request_builder \AvtoDev\CloudPayments\Requests\AbstractRequestBuilder */
+/** @var $request_builder \CHfur\CloudPayments\Requests\AbstractRequestBuilder */
 
 $request_builder->setAccountId('some_id');
 $request_builder->setName('name');
@@ -55,7 +55,7 @@ $request_builder->setName('name');
 Get PSR7 request:
 
 ```php
-/** @var \AvtoDev\CloudPayments\Requests\AbstractRequestBuilder $request_builder */
+/** @var \CHfur\CloudPayments\Requests\AbstractRequestBuilder $request_builder */
 /** @var \Psr\Http\Message\RequestInterface $request */
 
 $request = $request_builder->buildRequest();
@@ -64,9 +64,9 @@ $request = $request_builder->buildRequest();
 Set up client, and send the request:
 
 ```php
-$client = new \AvtoDev\CloudPayments\Client(
+$client = new \CHfur\CloudPayments\Client(
     new \GuzzleHttp\Client,
-    new \AvtoDev\CloudPayments\Config('public_id', 'api_key')
+    new \CHfur\CloudPayments\Config('public_id', 'api_key')
 );
 
 /** @var \Psr\Http\Message\RequestInterface $request */
@@ -80,9 +80,9 @@ $response = $client->send($request);
 Constructor requires any `GuzzleHttp\ClientInterface` instance and `Config` instance
 
 ```php
-/** @var \AvtoDev\CloudPayments\Config $config */
+/** @var \CHfur\CloudPayments\Config $config */
 
-use AvtoDev\CloudPayments\Client;
+use CHfur\CloudPayments\Client;
 use GuzzleHttp\Client as GuzzleClient;
 
 $client = new Client(new GuzzleClient, $config);
@@ -98,7 +98,7 @@ This client does only one thing: authorizes requests for CloudPayments and sends
 ```php
 $request = new \GuzzleHttp\Psr7\Request('POST','https://api',[],'{"foo":"bar"}');
 
-/** @var \AvtoDev\CloudPayments\Client $client */
+/** @var \CHfur\CloudPayments\Client $client */
 $response = $client->send($request);
 ```
 
@@ -151,7 +151,7 @@ Laravel 5.5 and above uses Package Auto-Discovery, so doesn't require you to man
 ```php
 'providers' => [
     // ...
-    AvtoDev\CloudPayments\Frameworks\Laravel\ServiceProvider::class,
+    CHfur\CloudPayments\Frameworks\Laravel\ServiceProvider::class,
 ]
 ```
 

@@ -7,11 +7,11 @@ namespace Unit\Requests\ApplePay;
 use GuzzleHttp\Psr7\Uri;
 use Illuminate\Support\Str;
 use Psr\Http\Message\UriInterface;
-use AvtoDev\Tests\Unit\Requests\AbstractRequestBuilderTestCase;
-use AvtoDev\CloudPayments\Requests\ApplePay\ApplePayStartSessionRequestBuilder;
+use CHfur\Tests\Unit\Requests\AbstractRequestBuilderTestCase;
+use CHfur\CloudPayments\Requests\ApplePay\ApplePayStartSessionRequestBuilder;
 
 /**
- * @covers \AvtoDev\CloudPayments\Requests\ApplePay\ApplePayStartSessionRequestBuilder
+ * @covers \CHfur\CloudPayments\Requests\ApplePay\ApplePayStartSessionRequestBuilder
  */
 class ApplePayStartSessionRequestBuilderTest extends AbstractRequestBuilderTestCase
 {

@@ -2,15 +2,15 @@
 
 declare(strict_types = 1);
 
-namespace AvtoDev\Tests\Unit\Requests\Subscriptions;
+namespace CHfur\Tests\Unit\Requests\Subscriptions;
 
 use GuzzleHttp\Psr7\Uri;
 use Psr\Http\Message\UriInterface;
-use AvtoDev\Tests\Unit\Requests\AbstractRequestBuilderTestCase;
-use AvtoDev\CloudPayments\Requests\Subscriptions\SubscriptionsFindRequestBuilder;
+use CHfur\Tests\Unit\Requests\AbstractRequestBuilderTestCase;
+use CHfur\CloudPayments\Requests\Subscriptions\SubscriptionsFindRequestBuilder;
 
 /**
- * @covers \AvtoDev\CloudPayments\Requests\Subscriptions\SubscriptionsFindRequestBuilder
+ * @covers \CHfur\CloudPayments\Requests\Subscriptions\SubscriptionsFindRequestBuilder
  */
 class SubscriptionsFindRequestBuilderTest extends AbstractRequestBuilderTestCase
 {

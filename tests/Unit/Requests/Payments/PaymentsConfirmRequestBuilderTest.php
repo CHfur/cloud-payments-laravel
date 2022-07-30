@@ -6,11 +6,11 @@ namespace Unit\Requests\Payments;
 
 use GuzzleHttp\Psr7\Uri;
 use Psr\Http\Message\UriInterface;
-use AvtoDev\Tests\Unit\Requests\AbstractRequestBuilderTestCase;
-use AvtoDev\CloudPayments\Requests\Payments\PaymentsConfirmRequestBuilder;
+use CHfur\Tests\Unit\Requests\AbstractRequestBuilderTestCase;
+use CHfur\CloudPayments\Requests\Payments\PaymentsConfirmRequestBuilder;
 
 /**
- * @covers \AvtoDev\CloudPayments\Requests\Payments\PaymentsConfirmRequestBuilder
+ * @covers \CHfur\CloudPayments\Requests\Payments\PaymentsConfirmRequestBuilder
  */
 class PaymentsConfirmRequestBuilderTest extends AbstractRequestBuilderTestCase
 {

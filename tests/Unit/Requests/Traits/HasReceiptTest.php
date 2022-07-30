@@ -4,12 +4,12 @@ declare(strict_types = 1);
 
 namespace Unit\Requests\Traits;
 
-use AvtoDev\Tests\AbstractTestCase;
-use AvtoDev\CloudPayments\Receipts\Receipt;
-use AvtoDev\CloudPayments\Requests\Traits\HasReceipt;
+use CHfur\Tests\AbstractTestCase;
+use CHfur\CloudPayments\Receipts\Receipt;
+use CHfur\CloudPayments\Requests\Traits\HasReceipt;
 
 /**
- * @covers \AvtoDev\CloudPayments\Requests\Traits\HasReceipt
+ * @covers \CHfur\CloudPayments\Requests\Traits\HasReceipt
  */
 class HasReceiptTest extends AbstractTestCase
 {

@@ -6,12 +6,12 @@ namespace Unit\Requests;
 
 use GuzzleHttp\Psr7\Uri;
 use Psr\Http\Message\UriInterface;
-use AvtoDev\Tests\AbstractTestCase;
+use CHfur\Tests\AbstractTestCase;
 use Psr\Http\Message\RequestInterface;
-use AvtoDev\CloudPayments\Requests\AbstractRequestBuilder;
+use CHfur\CloudPayments\Requests\AbstractRequestBuilder;
 
 /**
- * @covers \AvtoDev\CloudPayments\Requests\AbstractRequestBuilder
+ * @covers \CHfur\CloudPayments\Requests\AbstractRequestBuilder
  */
 class AbstractRequestTest extends AbstractTestCase
 {

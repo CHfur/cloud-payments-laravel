@@ -2,7 +2,7 @@
 
 declare(strict_types = 1);
 
-namespace AvtoDev\Tests;
+namespace CHfur\Tests;
 
 use PHPUnit\Framework\TestCase;
 

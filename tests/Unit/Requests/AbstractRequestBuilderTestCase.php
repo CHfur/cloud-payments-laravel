@@ -2,12 +2,12 @@
 
 declare(strict_types = 1);
 
-namespace AvtoDev\Tests\Unit\Requests;
+namespace CHfur\Tests\Unit\Requests;
 
 use Psr\Http\Message\UriInterface;
-use AvtoDev\Tests\AbstractTestCase;
+use CHfur\Tests\AbstractTestCase;
 use Psr\Http\Message\RequestInterface;
-use AvtoDev\CloudPayments\Requests\AbstractRequestBuilder;
+use CHfur\CloudPayments\Requests\AbstractRequestBuilder;
 
 abstract class AbstractRequestBuilderTestCase extends AbstractTestCase
 {

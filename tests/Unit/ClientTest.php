@@ -2,20 +2,20 @@
 
 declare(strict_types = 1);
 
-namespace AvtoDev\Tests\Unit;
+namespace CHfur\Tests\Unit;
 
 use Illuminate\Support\Str;
 use GuzzleHttp\HandlerStack;
 use GuzzleHttp\Psr7\Request;
 use GuzzleHttp\Psr7\Response;
-use AvtoDev\CloudPayments\Client;
-use AvtoDev\CloudPayments\Config;
-use AvtoDev\Tests\AbstractTestCase;
-use AvtoDev\GuzzleUrlMock\UrlsMockHandler;
-use AvtoDev\CloudPayments\Exceptions\CloudPaymentsRequestException;
+use CHfur\CloudPayments\Client;
+use CHfur\CloudPayments\Config;
+use CHfur\Tests\AbstractTestCase;
+use CHfur\GuzzleUrlMock\UrlsMockHandler;
+use CHfur\CloudPayments\Exceptions\CloudPaymentsRequestException;
 
 /**
- * @covers \AvtoDev\CloudPayments\Client
+ * @covers \CHfur\CloudPayments\Client
  */
 class ClientTest extends AbstractTestCase
 {

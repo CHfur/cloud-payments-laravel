@@ -2,15 +2,15 @@
 
 declare(strict_types = 1);
 
-namespace AvtoDev\Tests\Unit\Requests\Payments\Cards;
+namespace CHfur\Tests\Unit\Requests\Payments\Cards;
 
 use GuzzleHttp\Psr7\Uri;
 use Psr\Http\Message\UriInterface;
-use AvtoDev\CloudPayments\Requests\Payments\Cards\CardsAuthRequestBuilder;
-use AvtoDev\CloudPayments\Requests\Payments\Cards\CardsChargeRequestBuilder;
+use CHfur\CloudPayments\Requests\Payments\Cards\CardsAuthRequestBuilder;
+use CHfur\CloudPayments\Requests\Payments\Cards\CardsChargeRequestBuilder;
 
 /**
- * @covers \AvtoDev\CloudPayments\Requests\Payments\Cards\CardsChargeRequestBuilder
+ * @covers \CHfur\CloudPayments\Requests\Payments\Cards\CardsChargeRequestBuilder
  */
 class CardsChargeRequestBuilderTest extends CardsAuthRequestBuilderTest
 {
